@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Phudu:wght@300..900&display=swap');
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    margin: 0px;
+    background: rgb(238, 0, 0);
+    background: url(bk3.png);
+
+      
+}
+
+.bar{
+    display: flex;
+    height: 120px;
+    background: rgba(182, 25, 25, 0);
+    flex-flow: row wrap;
+    border: 1px solid rgb(24, 24, 24);
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.logotipo{
+    flex: 20%;
+    text-align: center;
+    background: rgba(109, 60, 60, 0);
+    
+   
+    display: inline-block;
+    border-bottom: 1px solid rgb(250, 250, 250);
+    
+    
+    
+    
+    
+    
+}
+
+.menu{
+    
+
+
+    flex: 100%;
+    background-color: rgb(252, 252, 252);
+    
+
+    
+    padding: 50px;
+    text-align: center;
+    
+    border-bottom: 1px solid rgb(253, 253, 253);
+    
+    
+    
+    
+    width: 100%;
+    
+    
+    
+    
+    
+
+    
+    
+    
+}
+
+
+    
+    
+
+
+.menu a{
+
+    font-family: 'Phudu';
+    
+    margin-top: 140px;
+
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-right: 11%;
+    margin-left: 60px;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.menu a:hover{
+    background-color: rgb(41, 68, 156);
+    
+}
+
+.hed{
+
+    
+    display: flex;
+    flex-flow: row;
+    height: 950px;
+    background-size: cover
+    ;
+
+
+}
+
+.hedline{
+    color: white;
+    flex: 40%;
+    margin-left: 10%;
+    border: solid 1px rgba(0, 0, 0, 0);
+    background: rgba(206, 12, 12, 0);
+    z-index: 2;
+    
+    
+    
+    
+    
+
+
+}
+
+
+.prota{
+
+    flex: 20%;
+    
+    border: solid 1px rgba(0, 0, 0, 0);
+    padding-top: 0px;
+    padding-bottom: 500px;
+    background: rgba(224, 4, 4, 0);
+    
+    
+    
+
+    
+    
+}
+
+.prota{
+
+    background: rgb(0, 0, 0);
+    
+
+
+}
+#pt{
+
+    z-index: 1;
+    width:550px;
+    height: 900px;
+    background: rgba(230, 14, 14, 0);
+    border-radius: 500px;
+    margin-top: 20px;
+    
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+    padding-left: 150px;
+    
+    
+    
+
+    
+    
+}
+#pt:hover{
+    
+    
+
+    transform: scale(1.1);
+    transition: transform 1.4s  ease;
+    transition: trasform 1.2 ease-in;
+    
+}
+
+
+.sobre{
+    
+    text-align: left;
+    margin-top: 170px;
+    margin-left: 0px;
+    font-family: Dosis;
+    
+    
+
+    
+    
+    
+    
+}
+.js{
+
+    width: 50px;
+    height: 50px;
+    
+    
+
+   
+
+}
+
+.js:hover{
+
+    transform: scale(1.4);
+    transition: transform 0.7s ease;
+}
+
+
+.html{
+
+    width: 50px;
+    height: 50px;
+    
+}
+
+.html:hover{
+
+    transform: scale(1.4);
+    transition: transform 0.7s ease;
+}
+.css{
+
+    width: 50px;
+    height: 50px;
+}
+.css:hover{
+
+    transform: scale(1.4);    
+    transition: transform 0.7s ease;
+}
+.sb{
+
+    margin-top: 120px;
+    position: absolute;
+        
+}
+
+.comp{
+
+    margin-top: 390px;
+    background-color: rgba(255, 0, 0, 0);
+    
+}
